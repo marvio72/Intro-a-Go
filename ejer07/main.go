@@ -33,7 +33,7 @@ func main() {
 	Operaciones()
 
 	/* CLOSURES */
-	tablaDel := 2
+	tablaDel := 5
 	MiTabla := Tabla(tablaDel)
 	for i := 1; i < 11; i++ {
 		fmt.Println(MiTabla())
